@@ -58,9 +58,6 @@ const Navbar = ({ toggleNavbar, setToggleNavbar }) => {
             <div className="mx-2 font-normal  dark:text-[#5651e5] dark:hover:text-blue-500 text-gray-800 hover:text-gray-500 transition-all duration-200 ease-in-out capitalize">
               <Link href="#projects">Projects</Link>
             </div>
-            <div className="mx-2 font-normal  dark:text-[#5651e5] dark:hover:text-blue-500 text-gray-800 hover:text-gray-500 transition-all duration-200 ease-in-out capitalize">
-              <Link href="/">Contact</Link>
-            </div>
           </div>
           <div className="md:hidden flex items-center">
             <div className="mx-4">{renderThemeChange()}</div>
