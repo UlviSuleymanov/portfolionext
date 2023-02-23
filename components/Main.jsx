@@ -1,21 +1,23 @@
-import Link from 'next/link';
-import { FaLinkedinIn } from 'react-icons/fa';
-import { FaTelegram } from 'react-icons/fa';
-import { AiFillGithub } from 'react-icons/ai';
+import Link from "next/link";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
 const Main = () => {
   return (
     <div id="/" className="w-full h-screen text-center flex flex-col mt-20">
       <div className="w-full h-full mx-auto flex p-2  justify-center items-center max-w-[1220px]">
         <div className="max-w-[700px]">
-          <p className="uppercase tracking-tighter text-sm">Your vision is my priority</p>
+          <p className="uppercase tracking-tighter text-sm">
+            Your vision is my priority
+          </p>
           <h1 className="font-bold text-4xl py-4">
             Hi, I&apos;m <span className="text-[#5651e5]">ÜLVİ</span>
           </h1>
-          <h1 className="font-bold text-4xl py-1">A Front-End Developer.</h1>
+          <h1 className="font-bold text-4xl py-1">A Fullstack Developer.</h1>
           <p className="py-4 w-auto overflow-hidden">
-            I&apos;m a front-end developer specializing in building web and mobile applications.
-            Currently, I&apos;m focused on building applications(web and mobile) and learning
-            back-end technologies.
+            I&apos;m a Fullstack developer specializing in building web and
+            mobile applications. Currently, I&apos;m focused on building
+            applications(web and mobile) and learning back-end technologies.
           </p>
           <Link
             href="#projects"
