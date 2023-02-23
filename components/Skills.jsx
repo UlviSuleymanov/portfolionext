@@ -18,7 +18,7 @@ const Skills = () => {
       id="skills"
       className="my-20 items-center justify-center flex flex-col "
     >
-      <div className="flex items-center flex-col justify-center md:flex-row py-2 md:p-2 md:m-2">
+      <div className="flex items-center flex-col justify-center md:flex-row py-2">
         <h3 className="items-center text-center">Front-end skills:</h3>
         <div className="flex flex-row ">
           <Image
@@ -65,28 +65,28 @@ const Skills = () => {
             alt="tailwind"
           />
         </div>
-        <div className="flex mt-1 ml-0 md:ml-5 items-center flex-col text-center justify-center md:flex-row">
-          <h3 className="text-center items-center justify-center pr-4 md:px-2 ">
+        <div className="flex ml-0 md:ml-5 items-center flex-col text-center justify-center md:flex-row">
+          <h3 className="text-center items-center justify-center">
             Back-end Skills:
           </h3>
           <div className="flex flex-row">
             <Image
               src={java}
-              alt="firebase"
+              alt="java"
               className="hover:scale-150 transition-all duration-150 ease-in-out mx-1"
               height="40"
               width="40"
             />
             <Image
               src={spring}
-              alt="firebase"
+              alt="spring"
               className="hover:scale-150 transition-all duration-150 ease-in-out mx-1"
               height="40"
               width="40"
             />
             <Image
               src={mysql}
-              alt="firebase"
+              alt="mysql"
               className="hover:scale-150 transition-all duration-150 ease-in-out mx-1"
               height="40"
               width="40"

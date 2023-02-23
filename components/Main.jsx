@@ -16,8 +16,9 @@ const Main = () => {
           <h1 className="font-bold text-4xl py-1">A Fullstack Developer.</h1>
           <p className="py-4 w-auto overflow-hidden">
             I&apos;m a Fullstack developer specializing in building web and
-            mobile applications. Currently, I&apos;m focused on building
-            applications(web and mobile) and learning back-end technologies.
+            mobile applications. I have never ending cruiosity and passion for
+            coding. Currently, I&apos;m focused on building applications(web and
+            mobile) and learning new technologies.
           </p>
           <Link
             href="#projects"
@@ -34,7 +35,7 @@ const Main = () => {
           </Link>
         </div>
       </div>
-      <div className="text-center justify-center mx-auto p-2 flex mb-20 flex-col ">
+      <div className="text-center mt-10 justify-center mx-auto p-2 flex mb-20 flex-col ">
         <div>
           <h1 className="text-lg font-semibold">Let&apos;s connect</h1>
         </div>
